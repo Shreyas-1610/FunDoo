@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Repository.Migrations
 {
-    public partial class Users : Migration
+    public partial class UserModify : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,7 +11,8 @@ namespace Repository.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(nullable: false),
+                    UserId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
                     DOB = table.Column<DateTime>(nullable: false),

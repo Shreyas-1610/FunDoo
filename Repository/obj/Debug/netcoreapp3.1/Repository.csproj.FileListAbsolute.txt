@@ -11,3 +11,7 @@ C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repos
 C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repository.dll
 C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
 C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache
+C:\Users\kshre\source\repos\FunDooNotes\Repository\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\kshre\source\repos\FunDooNotes\Repository\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repository.sourcelink.json
+C:\Users\kshre\source\repos\FunDooNotes\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.Up2Date

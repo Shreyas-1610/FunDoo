@@ -10,8 +10,8 @@ using Repository.Context;
 namespace Repository.Migrations
 {
     [DbContext(typeof(FunDooDbContext))]
-    [Migration("20250205101925_Users")]
-    partial class Users
+    [Migration("20250206111139_UserModify")]
+    partial class UserModify
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,9 +23,10 @@ namespace Repository.Migrations
 
             modelBuilder.Entity("Repository.Entity.Users", b =>
                 {
-                    b.Property<string>("UserId")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");

@@ -21,9 +21,10 @@ namespace Repository.Migrations
 
             modelBuilder.Entity("Repository.Entity.Users", b =>
                 {
-                    b.Property<string>("UserId")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");
