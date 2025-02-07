@@ -11,3 +11,9 @@ C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\Man
 C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.dll
 C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.pdb
 C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.genruntimeconfig.cache
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.sourcelink.json
+C:\Users\kshre\source\repos\FunDooNotes\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerL.73C23B7D.Up2Date
