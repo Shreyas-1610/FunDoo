@@ -18,7 +18,7 @@ namespace ManagerLayer.Service
             this.user = user;
         }
 
-        public Users Login(LoginModel model)
+        public string Login(LoginModel model)
         {
             return user.Login(model);
         }
@@ -28,6 +28,19 @@ namespace ManagerLayer.Service
             return user.Registration(model);
         }
 
+        public bool CheckEmail(string email)
+        {
+            return user.CheckEmail(email);
+        }
 
+        public string GenerateToken(string Email, int userId)
+        {
+            return user.GenerateToken(Email, userId);
+        }
+
+        public ForgetPassModel ForgetPassword(string Email)
+        {
+            return user.ForgetPassword(Email);
+        }
     }
 }

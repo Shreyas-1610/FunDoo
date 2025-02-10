@@ -10,6 +10,12 @@ namespace Repository.Interfaces
     {
         public Users Registration(RegisterModel model);
 
-        public Users Login(LoginModel model);
+        public string Login(LoginModel model);
+
+        public bool CheckEmail(string email);
+
+        public string GenerateToken(string Email, int userId);
+
+        public ForgetPassModel ForgetPassword(string Email);
     }
 }
