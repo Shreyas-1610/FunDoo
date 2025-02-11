@@ -1,6 +1,7 @@
 ﻿using CommonLayer.Models;
 using ManagerLayer.Interface;
 using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Context;
@@ -9,6 +10,7 @@ using Repository.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace FunDooNotes.Controllers
@@ -80,6 +82,36 @@ namespace FunDooNotes.Controllers
             catch (Exception e)
             {
                 return BadRequest(new ResponseModel<string> { Success =false, Message = e.ToString() });
+            }
+        }
+
+        [Authorize]
+        [HttpPost]
+        [Route("Reset")]
+        public IActionResult ResetPassword(ResetPassModel resetPassModel)
+        {
+            try
+            {
+                if(resetPassModel.Password == resetPassModel.ConfirmPassword)
+                {
+                    string Email = User.FindFirstValue("Email");
+                    if(manager.ResetPassword(Email, resetPassModel))
+                    {
+                        return Ok(new ResponseModel<bool> { Success = true, Message = "Reset password", Data = true});
+                    }
+                    else
+                    {
+                        return BadRequest(new ResponseModel<bool> { Success = false, Message = "Failed", Data = false });
+                    }
+                }
+                else
+                {
+                    return BadRequest(new ResponseModel<bool> { Success = false , Message = "Password not matching", Data = false});
+                }
+            }
+            catch(Exception e)
+            {
+                return BadRequest(new ResponseModel<string> { Success = false, Message = e.ToString()});
             }
         }
         //Review

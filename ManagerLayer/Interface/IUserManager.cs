@@ -15,5 +15,7 @@ namespace ManagerLayer.Interface
         public bool CheckEmail(string email);
 
         public ForgetPassModel ForgetPassword(string Email);
+
+        public bool ResetPassword(string email, ResetPassModel model);
     }
 }
