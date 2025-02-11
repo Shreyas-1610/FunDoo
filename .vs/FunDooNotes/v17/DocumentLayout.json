@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\managerlayer\\interface\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\interface\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2177C11-FC25-4F49-9472-2E89917ED240}|FunDooNotes\\FunDooNotes.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2177C11-FC25-4F49-9472-2E89917ED240}|FunDooNotes\\FunDooNotes.csproj|solutionrelative:fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\managerlayer\\service\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\service\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\service\\notesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\service\\notesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\managerlayer\\service\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\service\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\commonlayer\\models\\sendemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\sendemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\managerlayer\\interface\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169FC1D3-39E0-4FE5-8F77-D7CA5F0F6EE5}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\interface\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\commonlayer\\models\\updatenotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\updatenotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2177C11-FC25-4F49-9472-2E89917ED240}|FunDooNotes\\FunDooNotes.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\fundoonotes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2177C11-FC25-4F49-9472-2E89917ED240}|FunDooNotes\\FunDooNotes.csproj|solutionrelative:fundoonotes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\interfaces\\inotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\inotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02D5687B-861E-4016-A20E-712A012A119F}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\entity\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|c:\\users\\kshre\\source\\repos\\fundoonotes\\repository\\context\\fundoodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B4CC11-1973-47CE-A8F4-3C897130971C}|Repository\\Repository.csproj|solutionrelative:repository\\context\\fundoodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,92 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Interface\\IUserManager.cs",
-              "RelativeDocumentMoniker": "ManagerLayer\\Interface\\IUserManager.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Interface\\IUserManager.cs",
-              "RelativeToolTip": "ManagerLayer\\Interface\\IUserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:27:08.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Service\\UserManager.cs",
-              "RelativeDocumentMoniker": "ManagerLayer\\Service\\UserManager.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Service\\UserManager.cs",
-              "RelativeToolTip": "ManagerLayer\\Service\\UserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T08:28:08.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAA8AAAAAAAAAA==",
+              "Title": "NotesManager.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Service\\NotesManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Service\\NotesManager.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Service\\NotesManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Service\\NotesManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:28:30.64Z",
+              "WhenOpened": "2025-02-10T11:39:50.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Service\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Service\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Service\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\Service\\UserRepository.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowHIAAAAFAAAAAAAAAA==",
+              "Title": "UpdateNoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\UpdateNoteModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\UpdateNoteModel.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\UpdateNoteModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\UpdateNoteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:22:06.982Z",
+              "WhenOpened": "2025-02-10T11:13:16.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SendEmailModel.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\SendEmailModel.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Models\\SendEmailModel.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\SendEmailModel.cs",
-              "RelativeToolTip": "CommonLayer\\Models\\SendEmailModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\FunDooNotes\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "FunDooNotes\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\FunDooNotes\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "FunDooNotes\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDsAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:14:19.777Z",
+              "WhenOpened": "2025-02-10T10:23:09.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Service\\NotesRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Service\\NotesRepository.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Service\\NotesRepository.cs",
+              "RelativeToolTip": "Repository\\Service\\NotesRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:11:00.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\FunDooNotes\\Startup.cs",
-              "RelativeDocumentMoniker": "FunDooNotes\\Startup.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\FunDooNotes\\Startup.cs",
-              "RelativeToolTip": "FunDooNotes\\Startup.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwCEAAAAJAAAAAAAAAA==",
+              "Title": "INotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Interfaces\\INotesRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\INotesRepository.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Interfaces\\INotesRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\INotesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:56:53.536Z"
+              "WhenOpened": "2025-02-10T10:08:43.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\CommonLayer\\Models\\LoginModel.cs",
-              "RelativeToolTip": "CommonLayer\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "Notes.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Entity\\Notes.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Notes.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Entity\\Notes.cs",
+              "RelativeToolTip": "Repository\\Entity\\Notes.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wBMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:26:10.095Z"
+              "WhenOpened": "2025-02-10T10:01:48.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INotesManager.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Interface\\INotesManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Interface\\INotesManager.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\ManagerLayer\\Interface\\INotesManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Interface\\INotesManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:42:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FunDooDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Context\\FunDooDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Context\\FunDooDbContext.cs",
+              "ToolTip": "C:\\Users\\kshre\\source\\repos\\FunDooNotes\\Repository\\Context\\FunDooDbContext.cs",
+              "RelativeToolTip": "Repository\\Context\\FunDooDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:06:00.476Z"
             }
           ]
         }

@@ -11,5 +11,7 @@ namespace Repository.Context
         public FunDooDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Users> Users { get; set; }
+
+        public DbSet<Notes> Notes { get; set; }
     }
 }

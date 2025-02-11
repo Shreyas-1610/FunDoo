@@ -67,10 +67,10 @@ namespace Repository.Service
 
             if (user == null)
             {
-                return null; 
+                return null;
             }
 
-            return GenerateToken(user.Email, user.UserId); 
+            return GenerateToken(user.Email, user.UserId);
         }
 
 
@@ -78,7 +78,7 @@ namespace Repository.Service
         {
             try
             {
-                byte[] encData= new byte[password.Length];
+                byte[] encData = new byte[password.Length];
                 encData = Encoding.UTF8.GetBytes(password);
                 string encodedData = Convert.ToBase64String(encData);
                 return encodedData;
@@ -91,7 +91,7 @@ namespace Repository.Service
 
         public bool CheckEmail(string email)
         {
-            var alreadyExist = context.Users.Any(c=>c.Email == email);
+            var alreadyExist = context.Users.Any(c => c.Email == email);
             return alreadyExist;
         }
 
@@ -110,7 +110,20 @@ namespace Repository.Service
             {
                 throw new Exception("User does not exist!!");
             }
-
+        }
+        public bool ResetPassword(string Email, ResetPassModel model)
+        {
+            var users = context.Users.ToList().Find(u => u.Email == Email);
+            if (users != null)
+            {
+                users.Password = EncodePass(model.Password);
+                context.SaveChanges();
+                return true;
+            }
+            else
+            {
+                throw new Exception("User doesnt exist");
+            }
         }
     }
 }

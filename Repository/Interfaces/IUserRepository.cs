@@ -17,5 +17,7 @@ namespace Repository.Interfaces
         public string GenerateToken(string Email, int userId);
 
         public ForgetPassModel ForgetPassword(string Email);
+
+        public bool ResetPassword(string email, ResetPassModel model);
     }
 }
