@@ -4,6 +4,8 @@ using MassTransit;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 using Repository.Context;
 using Repository.Entity;
 using Repository.Service;
@@ -11,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace FunDooNotes.Controllers
@@ -22,12 +25,14 @@ namespace FunDooNotes.Controllers
         private readonly IUserManager manager;
         private readonly IBus bus;
         private readonly FunDooDbContext context;
+        private readonly IDistributedCache distributedCache;
 
-        public UsersController(IUserManager manager, IBus bus, FunDooDbContext context)
+        public UsersController(IUserManager manager, IBus bus, FunDooDbContext context, IDistributedCache distributedCache)
         {
             this.manager = manager;
             this.bus = bus;
             this.context = context;
+            this.distributedCache = distributedCache;
         }
 
         [HttpPost]
@@ -113,6 +118,32 @@ namespace FunDooNotes.Controllers
             {
                 return BadRequest(new ResponseModel<string> { Success = false, Message = e.ToString()});
             }
+        }
+
+        [HttpGet("RedisGetAllUsers")]
+        public async Task<IActionResult> GetAllNotesUsingRedis()
+        {
+            var cacheKey = "UsersList";
+            string SerializedUsersLst;
+            var UsersList = new List<Users>();
+            var RedisUsersList = await distributedCache.GetAsync(cacheKey);
+            if (RedisUsersList != null)
+            {
+                SerializedUsersLst = Encoding.UTF8.GetString(RedisUsersList);
+                UsersList = JsonConvert.DeserializeObject<List<Users>>(SerializedUsersLst);
+            }
+            else
+            {
+                UsersList = context.Users.ToList();
+                SerializedUsersLst = JsonConvert.SerializeObject(UsersList);
+                RedisUsersList = Encoding.UTF8.GetBytes(SerializedUsersLst);
+                var options = new DistributedCacheEntryOptions()
+                        .SetAbsoluteExpiration(DateTime.Now.AddMinutes(20))
+                        .SetSlidingExpiration(TimeSpan.FromMinutes(5));
+
+                await distributedCache.SetAsync(cacheKey, RedisUsersList, options);
+            }
+            return Ok(UsersList);
         }
         //Review
         [HttpGet("GetAllUsers")]
