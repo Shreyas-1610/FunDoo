@@ -72,5 +72,89 @@ namespace Repository.Service
             context.SaveChanges();
             return true;
         }
+
+        public bool CheckPin(int NotesId, int UserId)
+        {
+            var note = context.Notes.FirstOrDefault(n=>n.NotesId == NotesId && n.UserId == UserId);
+            if(note == null)
+            {
+                return false;
+            }
+            note.IsPin = !note.IsPin;
+            note.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return true;
+        }
+
+        public bool CheckArchive(int NotesId, int UserId)
+        {
+            var note = context.Notes.FirstOrDefault(n => n.NotesId == NotesId && n.UserId == UserId);
+            if (note == null)
+            {
+                return false; 
+            }
+            note.IsArchive = !note.IsArchive;
+            note.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return true;
+        }
+
+        public bool CheckTrash(int NotesId, int UserId)
+        {
+            var note = context.Notes.FirstOrDefault(n => n.NotesId == NotesId && n.UserId == UserId);
+            if (note == null)
+            {
+                return false;
+            }
+            note.IsTrash = !note.IsTrash;
+            note.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return true;
+        }
+
+        public string UpdateColor(int NotesId, int UserId, string Color)
+        {
+            var note = context.Notes.FirstOrDefault(n => n.NotesId == NotesId && n.UserId == UserId);
+            if (note == null)
+            {
+                return "No note found";
+            }
+            note.Color = Color;
+            note.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return Color;
+        }
+
+        public bool UpdateImage(int NotesId, int UserId, string ImagePath)
+        {
+            var record = context.Notes.FirstOrDefault(i => i.NotesId == NotesId && i.UserId == UserId);
+            if (record == null)
+            {
+                return false;
+            }
+            record.Image = ImagePath;
+            record.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return true;
+        }
+
+        public bool UpdateReminder(int NotesId, int UserId, DateTime reminder)
+        {
+            var record = context.Notes.FirstOrDefault(i => i.NotesId == NotesId && i.UserId == UserId);
+            if (record == null)
+            {
+                return false;
+            }
+            record.Reminder = reminder;
+            record.UpdatedAt = DateTime.Now;
+
+            context.SaveChanges();
+            return true;
+        }
     }
 }

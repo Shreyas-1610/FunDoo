@@ -34,5 +34,35 @@ namespace ManagerLayer.Service
         {
             return notesRepository.DeleteNote(NotesId, UserId);
         }
+
+        public bool CheckPin(int NotesId, int UserId)
+        {
+            return notesRepository.CheckPin(NotesId, UserId);
+        }
+
+        public bool CheckArchive(int NotesId, int UserId)
+        {
+            return notesRepository.CheckArchive(NotesId, UserId);
+        }
+
+        public bool CheckTrash(int NotesId, int UserId)
+        {
+            return notesRepository.CheckTrash(NotesId, UserId);
+        }
+
+        public string UpdateColor(int NotesId, int UserId, string Color)
+        {
+            return notesRepository.UpdateColor(NotesId, UserId, Color);
+        }
+
+        public bool UpdateImage(int NotesId, int UserId, string ImagePath)
+        {
+            return notesRepository.UpdateImage(NotesId, UserId, ImagePath); 
+        }
+        public bool UpdateReminder(int NotesId, int UserId, DateTime reminder)
+        {
+            return notesRepository.UpdateReminder(NotesId, UserId, reminder);
+        }
+
     }
 }

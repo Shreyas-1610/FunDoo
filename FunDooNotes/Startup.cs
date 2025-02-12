@@ -52,6 +52,7 @@ namespace FunDooNotes
             services.AddMassTransitHostedService();
             services.AddControllers();
             services.AddDbContext<FunDooDbContext>(a => a.UseSqlServer(Configuration["ConnectionStrings:DBConnection"]));
+            services.AddStackExchangeRedisCache(options => { options.Configuration = Configuration["RedisCacheUrl"]; });
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserManager, UserManager>();
             services.AddTransient<INotesRepository, NotesRepository>();
